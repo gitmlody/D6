@@ -1,0 +1,8 @@
+<% let name = "Jon" %>
+<h1> Hello, doctor <%= name%> </h1>
+<ul>
+    <% patients.forEach(patient => { %>
+        <li> <%= patient.name%> </li>    
+    <%});%>
+</ul> 
+<a href="http://localhost:5000/home/addPatient" class="button">Add patient</a>

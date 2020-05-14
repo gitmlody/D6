@@ -1,0 +1,12 @@
+<% date = "01.01.2021" %>
+<h1>Medical Application</h1>
+<h2>Enter your login and password</h2>
+<form action="/contact" method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="name">
+    <label for="email">Email</label>
+    <input type="text" name="email">
+    <input type="submit" value="Submit">
+</form>
+<h3> Date: <%= date%> </h3>
+<a href="http://localhost:5000/home" class="button">Go to App</a>
